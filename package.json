@@ -1,0 +1,36 @@
+{
+  "name": "Fourth_attempt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bin/dev",
+    "clean": "rm -rf dist",
+    "build": "npm run-script clean && mkdir dist && babel server -s -d dist",
+    "production": "npm run-script build && node bin/production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^6.0.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt": "^2.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "4.13.14",
+    "mongoose-unique-validator": "1.0.6",
+    "nodemailer": "^4.6.7"
+  }
+}
