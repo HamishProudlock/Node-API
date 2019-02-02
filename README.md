@@ -2,6 +2,8 @@ REST API
 
 Code here makes up the backend part of the project I reference in my personal statement. This program will simply request and respond JSON data, to view the front-end part of this project refer to my other repository. 
 
+After directing yourself to the project's location in your console, launch it by typing "npm start".
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 This API can be split into eight sections:
