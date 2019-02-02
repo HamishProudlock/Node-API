@@ -17,6 +17,8 @@ This API can be split into eight sections:
 
 Refer to routes.js to see the URIs that can interact with each section.
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 -/ EXAMPLE INTERACTION WITH A URI ENDPOINT /-
 
 body data containing a valid: 
@@ -34,7 +36,9 @@ sent to localhost:8080/u/CreateUser, will create a user in the database and you 
 Note: you will need an API testing program such as Postman to send data to the URI endpoints.
 Note: To examine what data needs to be sent to each URI endpoint refer to the folder called controllers then select the file with the section you wish to look at. 
 
-~//- BE AWARE -//~ 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+//- BE AWARE -//
 This repository is currently missing certain pieces of information that will stop the project from running 
 like database access keys for security reasons. If you want to run this project for yourself you will need to set up your 
 own session of MONGODB either locally or in the cloud as well as your own cloudinary account (this is where the non-text data is stored 
