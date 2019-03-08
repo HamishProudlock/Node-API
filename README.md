@@ -28,7 +28,6 @@ body data containing a valid:
 username
 password
 email
-password 
 firstname
 
 sent to localhost:8080/u/CreateUser, will create a user in the database and you should get a response back welcoming you to Fuzzel (the name of the project). 
